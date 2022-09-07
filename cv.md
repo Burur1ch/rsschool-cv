@@ -1,3 +1,4 @@
+# rsschool-cv
 # **Chirkov Ilya**
 _**Web-Developer | Minsk**_
 ## *Сontact:* 
@@ -12,6 +13,32 @@ I am motivated to keep learning and improving my skills._
 * *Full-stack: JavaScript, React, HTML5, CSS, SCSS, Redux, Express, mockAPI, Axios, OpenLayers*
 * *Databases: MongoDB, MS SQL Server*
 * *Additional skills: Git, Postman, Materialize, Bootstrap, Gulp*
+## *Code example*
+```
+function chechBrackets(str){
+    const stack = [];
+    const obj  ={
+        "{":"}",
+        "(":")",
+        "[":"]",
+    }
+    for(let i = 0; i < str.length; i++){
+        const bracket = str[i];
+        if (bracket === "(" || bracket === "[" || bracket === "{" ){
+            stack.push(bracket);
+        } else{
+        const lastel = stack.pop();
+        if(bracket !== obj[lastel]){
+            return false
+        }
+    }
+ }    
+        if(stack.length) return false;
+        return true;
+    }
+    
+console.log(chechBrackets('()()()[]{}')) //=>true
+```
 ## *Education:* 
 * **BSU MGEI named after A.D. Sakharov 2019 — 2023**, *Specialty: information systems and technologies*
 * Courses:
@@ -26,3 +53,6 @@ I am motivated to keep learning and improving my skills._
 * Perseverance
 * Initiative
 * Propensity for self-development and skill improvement
+## Language:
+* *English level - B1*
+* *Spanish lebel - A2*
