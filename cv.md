@@ -14,6 +14,8 @@ I am motivated to keep learning and improving my skills._
 * *Databases: MongoDB, MS SQL Server*
 * *Additional skills: Git, Postman, Materialize, Bootstrap, Gulp*
 ## *Code example*
+
+*Check brackets example:*
 ```
 function chechBrackets(str){
     const stack = [];
@@ -39,6 +41,7 @@ function chechBrackets(str){
     
 console.log(chechBrackets('()()()[]{}')) //=>true
 ```
+
 ## *Education:* 
 * **BSU MGEI named after A.D. Sakharov 2019 — 2023**, *Specialty: information systems and technologies*
 * Courses:
