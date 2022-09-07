@@ -14,7 +14,11 @@ I am motivated to keep learning and improving my skills._
 * *Additional skills: Git, Postman, Materialize, Bootstrap, Gulp*
 ## *Education:* 
 * **BSU MGEI named after A.D. Sakharov 2019 — 2023**, *Specialty: information systems and technologies*
-* *RSschool Javascript Courses*
+* Courses:
+    + CS50 lectures
+    + FreeCodeCamp
+    + HTML Academy
+    + RSschool Javascript Courses*
 ## *Personal qualities:*
 * Punctuality
 * Performance
